@@ -39,7 +39,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: taplab.azurecr.io/supply-chain-basic/tanzu-java-web-app-orig-canary-app@sha256:41d44bf96ded8943562c0c35e0c2787a3ca1723e0c2041ca53fc50b83ae01f34
+        image: taplab.azurecr.io/supply-chain-basic/tanzu-java-web-app-orig-canary-app@sha256:3c31291f4078c3bdcee61bc30bc68e4c293e84b9e443c6d2e2282ceda2d0789c
         name: workload
         ports:
         - containerPort: 8080
